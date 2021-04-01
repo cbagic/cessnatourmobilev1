@@ -143,7 +143,7 @@ var APP_DATA = {
           "yaw": -0.0262676340007566,
           "pitch": 0.2628053004263933,
           "title": "Dipnetting: You try it!<br>",
-          "text": "<p>Be patient - this game may take a minute to load. Press the green flag to start and reset. Use the arrow keys to move your dip net around. To catch a fish, press the space bar when the net is touching the mysterious blob! Press \"R\" to release your catch. </p><br><iframe src=\"https://scratch.mit.edu/projects/500087619/embed\" allowtransparency=\"true\" width=\"710\" height=\"588\" frameborder=\"0\" scrolling=\"no\" allowfullscreen></iframe><br>",
+          "text": "<p>Be patient - this game may take a minute to load. Press the green flag to start and reset. Drag the net around to move it. Tap the mysterious blob to try and catch it. Tap again to release your fish - if you've caught one! </p><br><iframe src=\"https://scratch.mit.edu/projects/509987719/embed\" allowtransparency=\"true\" width=\"710\" height=\"588\" frameborder=\"0\" scrolling=\"no\" allowfullscreen></iframe><br>",
           "icon": "fa-fish",
           "fullscreen": true
         },
