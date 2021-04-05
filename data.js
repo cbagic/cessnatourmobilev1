@@ -47,7 +47,7 @@ var APP_DATA = {
           "yaw": -0.07050843673630958,
           "pitch": -0.6339758165065295,
           "title": "Sounds of Cessna!<br>",
-          "text": "You can play this audio while you travel around. Make it quiet so you can listen to videos.<audio controls loop>\n" +
+          "text": "You can play this audio while you travel around. Make it quiet so you can listen to videos.<br><audio controls loop>\n" +
               "  <source src=\"Cessna%20soundscape.mp3\" type=\"audio/mpeg\">\n" +
               "Your browser does not support the audio element.\n" +
               "</audio>",

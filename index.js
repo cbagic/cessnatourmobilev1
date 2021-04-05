@@ -326,7 +326,7 @@
       //var icon = document.createElement('img');
       var icon = document.createElement('i');
       //icon.src = '';
-      icon.classList.add('fas', hotspot.icon, 'fa-2x');
+      icon.classList.add('fas', hotspot.icon, 'fa-lg');
       icon.classList.add('info-hotspot-icon');
       console.log(icon.classList);
       console.log(icon);

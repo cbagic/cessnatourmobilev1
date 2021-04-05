@@ -574,6 +574,7 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   height: 100%;
   /*width: 50%;
   height: 50%; */
+  margin-top: 10px;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
@@ -584,6 +585,8 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   height: 100%;
   /*width: 50%;
   height: 50%; */
+  margin-top: 10px;
+
   display: inline-block;
  text-align: center;
   vertical-align: middle;
