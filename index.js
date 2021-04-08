@@ -29,6 +29,7 @@
   var sceneListToggleElement = document.querySelector('#sceneListToggle');
   var autorotateToggleElement = document.querySelector('#autorotateToggle');
   var fullscreenToggleElement = document.querySelector('#fullscreenToggle');
+  var changeFontAwesome = false;
 
   // Detect desktop or mobile mode.
   function isMobileTablet(){
@@ -45,27 +46,35 @@
   if (isMobileTablet()) {
     document.body.classList.remove('desktop');
     document.body.classList.add('mobile');
+    //document.getElementById("tourBody").style.fontSize = screen.width / 20;
+    //console.log("font size" + document.getElementById("tourBody").style.fontSize);
   } else {
     document.body.classList.remove('mobile');
     document.body.classList.add('desktop');
   }
 
-  /* if (window.matchMedia) {
+  if (window.matchMedia) {
     var setMode = function() {
       if (mql.matches) {
-        document.body.classList.remove('desktop');
-        document.body.classList.add('mobile');
+        //document.body.classList.remove('desktop');
+        //document.body.classList.add('mobile');
+        console.log("old mobile");
+        document.getElementById("tourBody").style.fontSize = "20px";
+        console.log("font size" + document.getElementById("tourBody").style.fontSize);
+        changeFontAwesome = true;
       } else {
-        document.body.classList.remove('mobile');
-        document.body.classList.add('desktop');
+        //document.body.classList.remove('mobile');
+        //document.body.classList.add('desktop');
+        console.log("keep 30px font size");
       }
     };
     var mql = matchMedia("(max-width: 500px), (max-height: 500px)");
     setMode();
-    mql.addListener(setMode);
+    //mql.addListener(setMode);
   } else {
-    document.body.classList.add('desktop');
-  } */
+    console.log("no match");
+    //document.body.classList.add('desktop');
+  }
 
 
   // Detect whether we are on a touch device.
@@ -359,6 +368,7 @@
       text.classList.add('info-hotspot-text');
       text.innerHTML = hotspot.text;
 
+
       // Place header and text into wrapper element.
       wrapper.appendChild(header);
       wrapper.appendChild(text);
@@ -403,7 +413,7 @@
       //var icon = document.createElement('img');
       var icon = document.createElement('i');
       //icon.src = '';
-      icon.classList.add('fas', hotspot.icon, 'fa-2x');
+      icon.classList.add('fas', hotspot.icon, 'fa-lg');
       icon.classList.add('info-hotspot-icon');
       console.log(icon.classList);
       console.log(icon);
@@ -432,9 +442,19 @@
       header.appendChild(closeWrapper);
 
       // Create text element.
+      var inText;
+      var setHeight = screen.width * .82;
+      console.log("looking for height");
+      console.log(setHeight);
+      if(hotspot.scratch){
+        inText = "<p>Be patient - this game may take a minute to load. Press the green flag to start and reset. Drag the net around to move it. Tap the mysterious blob to try and catch it. Tap again to release your fish - if you've caught one! </p><br><iframe width=\"100%\" height=\"" + setHeight + "\" src=\"https://scratch.mit.edu/projects/509987719/embed\" allowtransparency=\"true\"  frameborder=\"0\" scrolling=\"no\" allowfullscreen></iframe><br>";
+      }else{
+        inText = hotspot.text;
+      }
       var text = document.createElement('div');
       text.classList.add('info-hotspot-text');
-      text.innerHTML = hotspot.text;
+      text.innerHTML = inText;
+
       console.log("here's scratch text");
       console.log(hotspot.text);
 
@@ -496,7 +516,16 @@
     }
     return null;
   }
+ // console.log("fontawesome size switch" + changeFontAwesome);
+ // console.log(document.getElementsByClassName("fas"));
+  if(changeFontAwesome){
+    var faIcons = document.getElementsByClassName("fas");
+    for (var j = 0; j < faIcons.length; j++){
+      faIcons[j].style.fontSize = "35px";
 
+    }
+
+  }
   // Display the initial scene.
   switchScene(scenes[0]);
 

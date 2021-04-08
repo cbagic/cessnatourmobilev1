@@ -52,7 +52,8 @@ var APP_DATA = {
               "Your browser does not support the audio element.\n" +
               "</audio>",
           "icon": "fa-headphones",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": -0.36397184737508503,
@@ -60,7 +61,8 @@ var APP_DATA = {
           "title": "Welcome to Cessna Landing!<br>",
           "text": "<p>This tour is brought to you by AmeriCorps NWF Environmental Stewards and the Choctawhatchee Basin Alliance (CBA). Cessna Landing is located on Hogtown Bayou in Santa Rosa Beach, in the Southeast section of our bay. A bayou is a marshy body of water connected to the bay. Cessna Landing is one of our best examples of a restored living shoreline! Previous Grasses In Classes students planted a lot of the smooth cordgrass you will see on your tour today.</p>",
           "icon": "fa-globe-americas",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": -0.5163677233089352,
@@ -68,15 +70,17 @@ var APP_DATA = {
           "title": "This is our bayou entry!<br>",
           "text": "<p>When we build reefs and plant smooth cordgrass at Cessna Landing, we usually unload our shell and plant bags here.</p>",
           "icon": "fa-info",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 2.0882552244513333,
           "pitch": -0.09819823115829429,
-          "title": "This is the Cessna Landing dock and boat launch.<br>",
+          "title": "Cessna Landing dock and boat launch.<br>",
           "text": "<p>Cessna Landing is a public park, so humans can enjoy it for fishing and recreation just like our wildlife.</p>",
           "icon": "fa-anchor",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 1.65,
@@ -84,7 +88,8 @@ var APP_DATA = {
           "title": "This is a monofilament recycling bin.<br>",
           "text": "<p>The Choctawhatchee Basin Alliance collects monofilament, or fishing line, from these recycling bins around the bay. This program stops monofilament from trapping animals.</p>",
           "icon": "fa-info",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": -2.8909708463475,
@@ -92,7 +97,8 @@ var APP_DATA = {
           "title": "You can visit Cessna Landing too!<br>",
           "text": "<p>Just head over to Santa Rosa Beach.</p>",
           "icon": "fa-info",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         }
       ]
     },
@@ -143,33 +149,37 @@ var APP_DATA = {
           "yaw": -0.0262676340007566,
           "pitch": 0.2628053004263933,
           "title": "Dipnetting: You try it!<br>",
-          "text": "<p>Be patient - this game may take a minute to load. Press the green flag to start and reset. Drag the net around to move it. Tap the mysterious blob to try and catch it. Tap again to release your fish - if you've caught one! </p><br><iframe src=\"https://scratch.mit.edu/projects/509987719/embed\" allowtransparency=\"true\" width=\"710\" height=\"588\" frameborder=\"0\" scrolling=\"no\" allowfullscreen></iframe><br>",
+          "text": "<p>Be patient - this game may take a minute to load. Press the green flag to start and reset. Drag the net around to move it. Tap the mysterious blob to try and catch it. Tap again to release your fish - if you've caught one! </p><br><iframe class=\"scratch\" src=\"https://scratch.mit.edu/projects/509987719/embed\" allowtransparency=\"true\"  frameborder=\"0\" scrolling=\"no\" allowfullscreen></iframe><br>",
           "icon": "fa-fish",
-          "fullscreen": true
+          "fullscreen": true,
+          "scratch": true
         },
         {
           "yaw": 2.5,
           "pitch": 0.003841427824095689,
-          "title": "Smooth cordgrass can use rhizomes to grow.<br>",
-          "text": "<img src=\"https://i.imgur.com/QLu61SS.png\" alt=\"rhizome diagram\" title=\"source: imgur.com\"  style=\"width:265px;\"/></a> <p>A rhizome is a special underground stem that can grow a new plant.</p>",
+          "title": "Smooth cordgrass has rhizomes.<br>",
+          "text": "<img class=\"infoImage\" src=\"https://i.imgur.com/QLu61SS.png\" alt=\"rhizome diagram\" title=\"source: imgur.com\"  /></a> <p>A rhizome is a special underground stem that can grow a new plant.</p>",
           "icon": "fa-info",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 2.2353588860310225,
           "pitch": 0.003841427824095689,
-          "title": "Smooth cordgrass has really helped this tree!<br>",
-          "text": "<img src=\"https://i.imgur.com/lw2Yi56.png\" alt=\"Cessna Landing but eroded\" title=\"source: imgur.com\" style=\"width:265px;\" /></a> <p>This image is what Cessna Landing used to look like! Look at all those exposed roots! All this <em>Spartina alterniflora</em> was planted by Grasses In Classes students. This creates a living shoreline. A living shoreline is a shoreline that promotes life and provides a habitat.</p>",
+          "title": "Smooth cordgrass fights erosion!<br>",
+          "text": "<img class=\"infoImage\" src=\"https://i.imgur.com/lw2Yi56.png\" alt=\"Cessna Landing but eroded\" title=\"source: imgur.com\"  /></a> <p>This image is what Cessna Landing used to look like! Look at all those exposed roots! All this <em>Spartina alterniflora</em> was planted by Grasses In Classes students. This creates a living shoreline. A living shoreline is a shoreline that promotes life and provides a habitat.</p>",
           "icon": "fa-tree",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 1.6051087572307292,
           "pitch": 0.136926343590277,
-          "title": "Watch this video about planting smooth cordgrass!<br>",
-          "text": "<iframe width=\"710px\" height=\"530px\" src=\"https://www.youtube.com/embed/3loRnaQNdIk?rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br>",
+          "title": "Watch this video about planting!<br>",
+          "text": "<iframe class=\"infoImage\" width=\"710px\" height=\"530px\" src=\"https://www.youtube.com/embed/3loRnaQNdIk?rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br>",
           "icon": "fa-play-circle",
-          "fullscreen": true
+          "fullscreen": true,
+          "scratch": false
         },
         {
           "yaw": 1.3,
@@ -177,7 +187,8 @@ var APP_DATA = {
           "title": "This is the intertidal zone.<br>",
           "text": "<p>Smooth cordgrass grows in the intertidal zone, between the high tide line and the low tide line. On the day we took these photos, the tide was very low, and the water was farther from the smooth cordgrass than it usually is.</p>",
           "icon": "fa-tint",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 0.8873521732694911,
@@ -185,7 +196,8 @@ var APP_DATA = {
           "title": "Here is an old reef.<br>",
           "text": "<p>This reef has collected so much sediment and restored so much shoreline that it has become buried! The Eastern side of the bay has a siltier, or squishier, bay floor, so the reefs also sink. Our next project at Cessna Landing is topping off this reef so it can continue to slow waves and protect the shoreline.</p>",
           "icon": "fa-info",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 2.3800849586448507,
@@ -193,7 +205,8 @@ var APP_DATA = {
           "title": "An AmeriCorps member!<br>",
           "text": "<p>AmeriCorps members do a lot of planting at Cessna Landing. This is part of our restoration work. Restoration is the process of returning damaged or destroyed ecosystems back to their natural state.</p>",
           "icon": "fa-users",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         }
       ]
     },
@@ -244,25 +257,28 @@ var APP_DATA = {
           "yaw": -0.1,
           "pitch": 0.17337398276150573,
           "title": "First, watch this video!<br>",
-          "text": "<p>In this short video, you will learn more about dipnetting.</p><br><iframe width=\"710\" height=\"530\" src=\"https://www.youtube.com/embed/LArWM8zvbnU?rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br>",
+          "text": "<p>In this short video, you will learn more about dipnetting.</p><br><iframe class=\"infoImage\" width=\"710\" height=\"530\" src=\"https://www.youtube.com/embed/LArWM8zvbnU?rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br>",
           "icon": "fa-play-circle",
-          "fullscreen": true
+          "fullscreen": true,
+          "scratch": false
         },
         {
           "yaw": -.4,
           "pitch": 0.15,
           "title": "Second, watch this video!<br>",
-          "text": "<p>In this short video, you will learn about seine netting.</p><br><iframe width=\"710\" height=\"530\" src=\"https://www.youtube.com/embed/XQouXH5wOYM?rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br>",
+          "text": "<p>In this short video, you will learn about seine netting.</p><br><iframe class=\"infoImage\" width=\"710\" height=\"530\" src=\"https://www.youtube.com/embed/XQouXH5wOYM?rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br>",
           "icon": "fa-play-circle",
-          "fullscreen": true
+          "fullscreen": true,
+          "scratch": false
         },
         {
           "yaw": -0.29101750917442004,
           "pitch": 0.0055052115183009676,
           "title": "Third, watch this video!<br>",
-          "text": "<p>In this short video, you will learn about cast netting.</p><br><iframe width=\"710\" height=\"530\" src=\"https://www.youtube.com/embed/raXDxwC3r2M?rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br>",
+          "text": "<p>In this short video, you will learn about cast netting.</p><br><iframe class=\"infoImage\" width=\"710\" height=\"530\" src=\"https://www.youtube.com/embed/raXDxwC3r2M?rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br>",
           "icon": "fa-play-circle",
-          "fullscreen": true
+          "fullscreen": true,
+          "scratch": false
         }
       ]
     },
@@ -315,7 +331,8 @@ var APP_DATA = {
           "title": "Passenger Van transporting shell bags.<br>",
           "text": "<p>After collecting recycled shell from local restaurants, we let it cure in the sun for six months, then put it in bags and drive it here from our working campus. Usually, we use a truck for this!</p>",
           "icon": "fa-info",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 2.024921049531926,
@@ -323,7 +340,8 @@ var APP_DATA = {
           "title": "This is a fishing dock.<br>",
           "text": "<p>Cessna Landing visitors often ask us questions about our reefs!</p>",
           "icon": "fa-fish",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 0.4226481248241356,
@@ -331,7 +349,8 @@ var APP_DATA = {
           "title": "Here is our jon boat.<br>",
           "text": "<p>We use jon boats to float our shell bags out to the reefs. It's a lot easier than carrying them!</p>",
           "icon": "fa-anchor",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 0.002507242649029351,
@@ -339,7 +358,8 @@ var APP_DATA = {
           "title": "AmeriCorps and CBA Members.<br>",
           "text": "<p>These AmeriCorps and CBA members are hard at work protecting our bay! The AmeriCorps NWF Environmental Stewards program partners with CBA - they work together in our watershed.</p>",
           "icon": "fa-users",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": -1.1185155646717444,
@@ -347,15 +367,17 @@ var APP_DATA = {
           "title": "These reefs are buried.<br>",
           "text": "<p>This is one of our next focus areas at Cessna Landing! We're going to top off these reefs and plant more smooth cordgrass.</p>",
           "icon": "fa-info",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 0.004429120234549444,
           "pitch": -0.1310101814999154,
-          "title": "From here, you can see the Cessna Landing point.<br>",
+          "title": "The Cessna Landing point.<br>",
           "text": "<p>Today, we're going to build a reef out at the point. We have to walk across the bayou with the jon boat to get there.</p>",
           "icon": "fa-info",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 1.0894155672176886,
@@ -363,7 +385,8 @@ var APP_DATA = {
           "title": "Houses &amp; Vacation Rentals<br>",
           "text": "<p>Locals, tourists, and wildlife all share the bay. Development on the shore has a huge impact on water quality and erosion. This is why it's so important to build living shorelines to help with human impact.</p>",
           "icon": "fa-house-user",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         }
       ]
     },
@@ -416,15 +439,17 @@ var APP_DATA = {
           "title": "We have to use waders to cross the bayou.<br>",
           "text": "<p>The silty organic soil makes it difficult to walk, but the waders keep us dry as we walk through the water. Let's keep going towards the reefs!</p>",
           "icon": "fa-walking",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 0.06652389748309417,
           "pitch": -0.18540256687646917,
           "title": "This boat is abandoned.<br>",
-          "text": "<p>Sometimes people abandon old boats at Cessna Landing. This makes it harder to work and relax here. Abandoned boats and fishing gear are also marine debris. Like other types of trash, abandoned boats cause problems for wildlife.</p><br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Turtle_entangled_in_marine_debris_%28ghost_net%29.jpg/300px-Turtle_entangled_in_marine_debris_%28ghost_net%29.jpg' alt='Man examines marine debris' width='265px'>",
+          "text": "<p>Sometimes people abandon old boats at Cessna Landing. This makes it harder to work and relax here. Abandoned boats and fishing gear are also marine debris. Like other types of trash, abandoned boats cause problems for wildlife.</p><br><img class=\"infoImage\" src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Turtle_entangled_in_marine_debris_%28ghost_net%29.jpg/300px-Turtle_entangled_in_marine_debris_%28ghost_net%29.jpg' alt='Man examines marine debris' width='265px'>",
           "icon": "fa-anchor",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": -2.0726892363750196,
@@ -432,7 +457,8 @@ var APP_DATA = {
           "title": "These trees are longleaf pines.<br>",
           "text": "<p>The pine flatland ecosystem surrounds the bay. Land managers use controlled fires to keep this ecosystem safe and healthy.</p>",
           "icon": "fa-tree",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 3.1298455694473457,
@@ -440,7 +466,8 @@ var APP_DATA = {
           "title": "Mysterious Boat!<br>",
           "text": "<p>We aren't really sure why this is here or whose it is, but we'll need to move it to build reefs here.</p>",
           "icon": "fa-question",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": -1.1464958026329093,
@@ -448,7 +475,8 @@ var APP_DATA = {
           "title": "AmeriCorps and CBA!<br>",
           "text": "<p>Look, they're already far ahead! Take a minute to look around here, then let's catch up!</p>",
           "icon": "fa-users",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": -1.6,
@@ -456,7 +484,8 @@ var APP_DATA = {
           "title": "This is a creek mouth.<br>",
           "text": "<p>This creek empties into Hogtown Bayou. It adds freshwater, lowering the salinity.</p>",
           "icon": "fa-tint",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         }
       ]
     },
@@ -552,10 +581,11 @@ var APP_DATA = {
         {
           "yaw": 0.8256501334722639,
           "pitch": -0.12723454733913186,
-          "title": "These AmeriCorps members just used all their shell!<br>",
-          "text": "<p>Now, it's time to go back for another load.</p>",
+          "title": "They used all their shell!<br>",
+          "text": "<p>Now, it's time for these AmeriCorps and CBA members to go back for another load.</p>",
           "icon": "fa-users",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 1.4276958607585746,
@@ -563,23 +593,26 @@ var APP_DATA = {
           "title": "We leave gaps in our reefs.<br>",
           "text": "<p>This obeys government regulations and makes sure water can pass through and creatures won't get trapped.</p>",
           "icon": "fa-info",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 1.6917274310083075,
           "pitch": -0.01342418617574026,
-          "title": "We plant smooth cordgrass behind our reefs.<br>",
+          "title": "We plant smooth cordgrass behind reefs.<br>",
           "text": "<p>The reefs help slow wave energy so smooth cordgrass has time to grow its strong roots. Smooth cordgrass also filters and absorbs pollution, helping protect oysters from polluted water. Smooth cordgrass and oyster reefs work together to provide a great habitat for the wildlife in our bay.</p>",
           "icon": "fa-seedling",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 1.1638712587284967,
           "pitch": -0.5,
           "title": "Watch AmeriCorps build a reef!<br>",
-          "text": "<iframe width=\"710\" height=\"530\" src=\"https://www.youtube.com/embed/Sit1eo5OAN4?rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br>",
+          "text": "<iframe class=\"infoImage\" width=\"710\" height=\"530\" src=\"https://www.youtube.com/embed/Sit1eo5OAN4?rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br>",
           "icon": "fa-play-circle",
-          "fullscreen": true
+          "fullscreen": true,
+          "scratch": false
         }
       ]
     },
@@ -630,17 +663,19 @@ var APP_DATA = {
           "yaw": -0.6750018297334588,
           "pitch": -0.004119604974430757,
           "title": "Watch this short video about our shell bags!<br>",
-          "text": "<iframe width=\"710\" height=\"530\" src=\"https://www.youtube.com/embed/lr7skvDpXKQ?rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br>",
+          "text": "<iframe class=\"infoImage\" width=\"710\" height=\"530\" src=\"https://www.youtube.com/embed/lr7skvDpXKQ?rel=0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe><br>",
           "icon": "fa-play-circle",
-          "fullscreen": true
+          "fullscreen": true,
+          "scratch": false
         },
         {
           "yaw": -0.13130411801986597,
           "pitch": -0.062081150127959006,
-          "title": "Most of our Cessna Landing reefs are 20 ft long.<br>",
+          "title": "Most of these reefs are 20 ft long.<br>",
           "text": "<p>Different areas have different needs, so we adjust the reef length to each place and to follow government regulations.</p>",
           "icon": "fa-info",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": -1.454927284200144,
@@ -648,7 +683,8 @@ var APP_DATA = {
           "title": "We build reefs around the point.<br>",
           "text": "<p>The point is vulnerable to erosion, so we have to protect it.</p>",
           "icon": "fa-info",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         },
         {
           "yaw": 2.9868145943673152,
@@ -656,7 +692,8 @@ var APP_DATA = {
           "title": "This is the way out of Hogtown Bayou.<br>",
           "text": "<p>Cessna Landing connects to the Choctawhatchee Bay. You can find many more of our living shoreline restoration sites around the bay. It's important to protect our bay and our watershed for both humans and wildlife, including our watershed's two threatened fish, the Okaloosa darter and the Gulf sturgeon. Visit the <a href='http://basinalliance.org' style='color: greenyellow'>CBA website</a> for more information.</p>",
           "icon": "fa-globe-americas",
-          "fullscreen": false
+          "fullscreen": false,
+          "scratch": false
         }
       ]
     }
